@@ -1,4 +1,4 @@
-# Diabetes_Prediction_Model
+# Diabetes Prediction Model
 ML Project - Diabetes Prediction using python , flask , Jupyter Notebook and deployment in AWS.
 
 Home Page
