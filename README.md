@@ -1,15 +1,22 @@
 # Diabetes Prediction Model
 ML Project - Diabetes Prediction using python , flask , Jupyter Notebook and deployment in AWS.
 
-Learning Objective
+Learning Objective -
+
 The following points were the objective of the project (The main intention was to create an end-to-end ML project.)
 
 Data gathering
+
 Descriptive Analysis
+
 Data Visualizations
+
 Data Preprocessing
+
 Data Modelling
+
 Model Evaluation
+
 Model Deployment
 
 Home Page
