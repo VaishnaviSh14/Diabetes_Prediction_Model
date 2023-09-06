@@ -5,28 +5,30 @@
   <title>Stylish Home Page</title>
   <style>
     body {
-      background: linear-gradient(to bottom right, #3498db, #e74c3c);
+      background: url('../static/DiabetesPred.jpg') center/cover no-repeat; 
       font-family: Arial, sans-serif;
       color: white;
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: center;
+      flex-direction: column; /* Change to column */
+      justify-content: flex-start; /* Align content at the top */
       align-items: center;
       height: 100vh;
     }
     .welcome-container {
-      background-color: rgba(0, 0, 0, 0.7);
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
       text-align: center;
     }
     h1 {
       font-size: 36px;
+      color:#1e3799;
       margin-bottom: 20px;
     }
     p {
+      color:#1e3799;
+      font-weight: bold; 
       font-size: 18px;
       margin-bottom: 30px;
     }
@@ -35,7 +37,7 @@
       justify-content: center;
     }
     .btn {
-      background-color: black;
+      background-color: #1e3799; 
       color: white;
       padding: 10px 20px;
       border: 2px solid white;
@@ -46,7 +48,7 @@
       transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #333;
+      background-color: lightblue;
     }
   </style>
 </head>
@@ -60,3 +62,4 @@
   </div>
 </body>
 </html>
+

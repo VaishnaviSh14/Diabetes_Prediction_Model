@@ -5,7 +5,7 @@
   <title>ML API</title>
   <style>
     body {
-      background: linear-gradient(to bottom right, #3498db, #e74c3c);
+      background: url('../static/Diabetes.jpg') center/cover no-repeat; 
       font-family: Arial, sans-serif;
       color: white;
       margin: 0;
@@ -16,39 +16,59 @@
       height: 100vh;
     }
     .login {
-      background-color: rgba(0, 0, 0, 0.7);
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
       text-align: center;
     }
     h1 {
-      margin-bottom: 20px;
-    }
+      margin-bottom: 	#483D8B;
+      color: 	#F5F5DC;
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); 
+      font-weight: bold; 
+      -webkit-text-stroke: 2px #FFFACD; 
+
+
+   }
     form {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
     input {
+      background-color: #DAFFFF;
       padding: 10px;
       margin: 5px;
-      border: none;
+      border: 2px solid #1e3799; 
       border-radius: 5px;
       width: 300px;
+      color: black; 
+      transition: border-color 0.3s ease, color 0.3s ease;
+
     }
+  
+    input:hover,
+    input:focus {
+      border-color: lightblue;
+      color: black    }
+
     button {
-      background-color: #2ecc71;
-      color: white;
+      background-color: #1e3799; 
+      color: lightblue; 
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: color 0.3s ease, background-color 0.3s ease; 
     }
+  
     button:hover {
-      background-color: #27ae60;
+      color: white;
+      background-color: #a9cce3; 
     }
+  .text{
+    color:black
+  }
+   
     .result {
       margin-top: 20px;
     }
@@ -73,4 +93,4 @@
     </div>
   </div>
 </body>
-</html>
+</html> 
